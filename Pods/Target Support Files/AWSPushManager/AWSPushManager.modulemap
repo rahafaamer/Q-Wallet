@@ -1,0 +1,6 @@
+framework module AWSPushManager {
+  umbrella header "AWSPushManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

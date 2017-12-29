@@ -1,0 +1,6 @@
+framework module Pods_SIM {
+  umbrella header "Pods-SIM-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AECollapsableTableView {
+  umbrella header "AECollapsableTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

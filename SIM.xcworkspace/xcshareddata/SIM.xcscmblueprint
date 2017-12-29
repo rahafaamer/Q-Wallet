@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "65ed2c5d-3248-8b4c-86b9-9f08c511f294++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "65ed2c5d-3248-8b4c-86b9-9f08c511f294++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "65ed2c5d-3248-8b4c-86b9-9f08c511f294++505" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D0E9CE37-F980-430A-BB7D-28150348CDDE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "65ed2c5d-3248-8b4c-86b9-9f08c511f294++505" : "SIMDemo%202\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SIM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SIM\/SIM.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svnserver.smartsoft-sy.local\/svn\/SMTDemo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65ed2c5d-3248-8b4c-86b9-9f08c511f294++505"
+    }
+  ]
+}
