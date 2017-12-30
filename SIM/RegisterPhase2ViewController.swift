@@ -44,7 +44,7 @@ class RegisterPhase2ViewController:UIViewController,UITextFieldDelegate,UITableV
     @IBOutlet weak var mobileTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var cityTextField: UITextField!
-    @IBOutlet weak var housePhoneTextField: GrayTextField!
+    @IBOutlet weak var housePhoneTextField: UITextField!
     @IBOutlet weak var regionTextField: UITextField!
     @IBOutlet weak var mailBoxTextField: UITextField!
     @IBOutlet weak var countrytextField: UITextField!

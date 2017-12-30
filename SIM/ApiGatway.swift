@@ -77,7 +77,7 @@ class ApiGatway {
         }
         request.httpMethod = "POST" // Set the request method type
         Alamofire.request(request).validate().responseString(completionHandler: { response in
-            var text = response.description
+            var text = String(describing: response)
             // trim the string
             var trimString = text.trimmingCharacters(in: CharacterSet.newlines)
             // replace occurences within the string

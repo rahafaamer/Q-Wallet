@@ -13,8 +13,8 @@ class EPaymentViewController: UIViewController {
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var cancelBtn: UIButton!
     @IBOutlet weak var confirmBtn: UIButton!
-    @IBOutlet weak var transactionSecCode: GrayTextField!
-    @IBOutlet weak var accountSecCode: GrayTextField!
+    @IBOutlet weak var transactionSecCode: UITextField!
+    @IBOutlet weak var accountSecCode: UITextField!
     @IBOutlet weak var enterSecurityCodelabel: UILabel!
     @IBOutlet weak var transactionInfolabel: UILabel!
     @IBOutlet weak var descLabel: UILabel!

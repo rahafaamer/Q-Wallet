@@ -36,7 +36,7 @@ class MoneyTransfereViewController: UIViewController , UITableViewDelegate , UIT
     
     @IBOutlet var okButton: UIButton!
     @IBOutlet var addDefaultSmallView: UIView!
-    @IBOutlet var amount: GrayTextField!
+    @IBOutlet var amount: UITextField!
     @IBOutlet var amountLabel: UILabel!
     @IBOutlet var addDefaultUser: UIView!
     @IBOutlet var countryCodeButton: UIButton!
@@ -57,10 +57,10 @@ class MoneyTransfereViewController: UIViewController , UITableViewDelegate , UIT
     @IBOutlet var destinationCountryTextField: UITextField!
     
     @IBOutlet var benificiaryUsers: UIButton!
-    @IBOutlet var firstName: GrayTextField!
-    @IBOutlet var lastName: GrayTextField!
-    @IBOutlet var messageTextField: GrayTextField!
-    @IBOutlet var amountTextField: GrayTextField!
+    @IBOutlet var firstName: UITextField!
+    @IBOutlet var lastName: UITextField!
+    @IBOutlet var messageTextField: UITextField!
+    @IBOutlet var amountTextField: UITextField!
     var savedUser = User()
     var selectedCountry:SRCountry!
     var destinationStates = [String]()

@@ -48,7 +48,6 @@
 		183670B51F6570E10015A02E /* SIMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183670B41F6570E10015A02E /* SIMUITests.swift */; };
 		183670C31F65D8380015A02E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183670C21F65D8380015A02E /* NotificationsViewController.swift */; };
 		1868355C1F77848B00CDC601 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868355B1F77848B00CDC601 /* HomeViewController.swift */; };
-		1868355E1F7786B100CDC601 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868355D1F7786B100CDC601 /* HomeTableViewCell.swift */; };
 		186ECA921FA9C7EE003AE5BA /* AskAddBeneficiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186ECA911FA9C7EE003AE5BA /* AskAddBeneficiaryViewController.swift */; };
 		186ECA941FA9CBD2003AE5BA /* AddBeneficiariesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186ECA931FA9CBD2003AE5BA /* AddBeneficiariesListViewController.swift */; };
 		187ACDA31F9DC0AF00DDFB18 /* WalletToWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ACDA21F9DC0AF00DDFB18 /* WalletToWalletViewController.swift */; };
@@ -75,7 +74,6 @@
 		F70AE1971FB7A73600121E14 /* CityUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70AE1961FB7A73600121E14 /* CityUtil.swift */; };
 		F70AE1991FB7AD4B00121E14 /* CountryUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70AE1981FB7AD4B00121E14 /* CountryUtil.swift */; };
 		F70BF1B31FB9A6F600387757 /* QRemitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70BF1B21FB9A6F600387757 /* QRemitDetails.swift */; };
-		F70BF1B51FBA1BF600387757 /* AbbyyRtrSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70BF1B41FBA1BF500387757 /* AbbyyRtrSDK.framework */; };
 		F70BF1BB1FBA1C6400387757 /* RTRProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70BF1B71FBA1C6400387757 /* RTRProgressView.swift */; };
 		F70BF1BC1FBA1C6400387757 /* RTRSelectedAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70BF1B81FBA1C6400387757 /* RTRSelectedAreaView.swift */; };
 		F70BF1BD1FBA1C6400387757 /* RTRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70BF1B91FBA1C6400387757 /* RTRViewController.swift */; };
@@ -110,7 +108,6 @@
 		F732236A1FB4634E002EF1E1 /* CustomerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73223691FB4634E002EF1E1 /* CustomerUtils.swift */; };
 		F740E9951F85F933001BFDF5 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F740E9941F85F933001BFDF5 /* VerifyViewController.swift */; };
 		F7465D711F6682040091C04D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7465D701F6682040091C04D /* Extensions.swift */; };
-		F7465D731F6682270091C04D /* GrayTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7465D721F6682270091C04D /* GrayTextField.swift */; };
 		F7465D751F6682420091C04D /* UIcontrollerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7465D741F6682420091C04D /* UIcontrollerExtention.swift */; };
 		F74F36C01F89FBE1006410A1 /* ViewBeneficiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F36BF1F89FBE0006410A1 /* ViewBeneficiaryViewController.swift */; };
 		F74F36C21F89FC5D006410A1 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F36C11F89FC5D006410A1 /* ContactUsViewController.swift */; };
@@ -237,7 +234,6 @@
 		183670B61F6570E10015A02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183670C21F65D8380015A02E /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		1868355B1F77848B00CDC601 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		1868355D1F7786B100CDC601 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		186ECA911FA9C7EE003AE5BA /* AskAddBeneficiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskAddBeneficiaryViewController.swift; sourceTree = "<group>"; };
 		186ECA931FA9CBD2003AE5BA /* AddBeneficiariesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBeneficiariesListViewController.swift; sourceTree = "<group>"; };
 		187ACDA21F9DC0AF00DDFB18 /* WalletToWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletToWalletViewController.swift; sourceTree = "<group>"; };
@@ -272,7 +268,6 @@
 		F70AE1961FB7A73600121E14 /* CityUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityUtil.swift; sourceTree = "<group>"; };
 		F70AE1981FB7AD4B00121E14 /* CountryUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryUtil.swift; sourceTree = "<group>"; };
 		F70BF1B21FB9A6F600387757 /* QRemitDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRemitDetails.swift; sourceTree = "<group>"; };
-		F70BF1B41FBA1BF500387757 /* AbbyyRtrSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AbbyyRtrSDK.framework; sourceTree = "<group>"; };
 		F70BF1B71FBA1C6400387757 /* RTRProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTRProgressView.swift; sourceTree = "<group>"; };
 		F70BF1B81FBA1C6400387757 /* RTRSelectedAreaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTRSelectedAreaView.swift; sourceTree = "<group>"; };
 		F70BF1B91FBA1C6400387757 /* RTRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTRViewController.swift; sourceTree = "<group>"; };
@@ -287,7 +282,6 @@
 		F70BF1CB1FBA1D7A00387757 /* Italian.edc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Italian.edc; sourceTree = "<group>"; };
 		F70BF1CC1FBA1D7A00387757 /* Polish.edc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Polish.edc; sourceTree = "<group>"; };
 		F70BF1CD1FBA1D7A00387757 /* Spanish.edc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spanish.edc; sourceTree = "<group>"; };
-		F70BF1CE1FBA1E1300387757 /* OCRTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OCRTest.entitlements; sourceTree = "<group>"; };
 		F70BF1DC1FBA231A00387757 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		F70F653C1FD2C63800A2E92C /* ApiGatway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiGatway.swift; sourceTree = "<group>"; };
 		F71C0C181F8F599900088EE0 /* SIM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SIM.entitlements; sourceTree = "<group>"; };
@@ -312,7 +306,6 @@
 		F73223691FB4634E002EF1E1 /* CustomerUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerUtils.swift; sourceTree = "<group>"; };
 		F740E9941F85F933001BFDF5 /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
 		F7465D701F6682040091C04D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		F7465D721F6682270091C04D /* GrayTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayTextField.swift; sourceTree = "<group>"; };
 		F7465D741F6682420091C04D /* UIcontrollerExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIcontrollerExtention.swift; sourceTree = "<group>"; };
 		F74F36BF1F89FBE0006410A1 /* ViewBeneficiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBeneficiaryViewController.swift; sourceTree = "<group>"; };
 		F74F36C11F89FC5D006410A1 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
@@ -353,7 +346,6 @@
 			files = (
 				F70BF1DD1FBA231A00387757 /* libc++.tbd in Frameworks */,
 				F71C0C1C1F8F8EF500088EE0 /* UserNotifications.framework in Frameworks */,
-				F70BF1B51FBA1BF600387757 /* AbbyyRtrSDK.framework in Frameworks */,
 				752FABB4B7774F1FEA3B4F7C /* Pods_SIM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,17 +445,11 @@
 				183670981F6570E10015A02E /* Main.storyboard */,
 				F70BF1BE1FBA1CA000387757 /* SIM.RTRProgressView.xib */,
 				F79096441FA408510010C9C7 /* MFAViewController.xib */,
-				F70BF1CE1FBA1E1300387757 /* OCRTest.entitlements */,
-				F70BF1B41FBA1BF500387757 /* AbbyyRtrSDK.framework */,
+				1836709D1F6570E10015A02E /* LaunchScreen.storyboard */,
 				1836709B1F6570E10015A02E /* Assets.xcassets */,
 				183670921F6570E10015A02E /* AppDelegate.swift */,
-				1836709D1F6570E10015A02E /* LaunchScreen.storyboard */,
 				183670A01F6570E10015A02E /* Info.plist */,
 				F71C0C191F8F6A3600088EE0 /* awsconfiguration.json */,
-				F7DFAC2D1F67DB6D00AC61FD /* HistoryTableViewTableViewCell.swift */,
-				F7DFAC341F67F0AB00AC61FD /* TourCollectionViewCell.swift */,
-				F7DFAC361F67F19600AC61FD /* TourViewController.swift */,
-				1868355D1F7786B100CDC601 /* HomeTableViewCell.swift */,
 			);
 			path = SIM;
 			sourceTree = "<group>";
@@ -554,6 +540,7 @@
 		F71DB3A41F836DDE0012F329 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F7C22D5A1FF80B8F00653909 /* TourController */,
 				F7216F631FCA94BE00665E3A /* RegistrationController */,
 				F7216F621FCA947C00665E3A /* Ocr */,
 				F7216F641FCA966800665E3A /* QWalletServices */,
@@ -613,7 +600,6 @@
 			children = (
 				F7465D701F6682040091C04D /* Extensions.swift */,
 				F7465D741F6682420091C04D /* UIcontrollerExtention.swift */,
-				F7465D721F6682270091C04D /* GrayTextField.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -725,9 +711,19 @@
 				1868355B1F77848B00CDC601 /* HomeViewController.swift */,
 				F7F332CA1F88EA3100081B3D /* LocationViewController.swift */,
 				18998B2F1F66571100FEF938 /* HistoryViewController.swift */,
+				F7DFAC2D1F67DB6D00AC61FD /* HistoryTableViewTableViewCell.swift */,
 				183670C21F65D8380015A02E /* NotificationsViewController.swift */,
 			);
 			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		F7C22D5A1FF80B8F00653909 /* TourController */ = {
+			isa = PBXGroup;
+			children = (
+				F7DFAC341F67F0AB00AC61FD /* TourCollectionViewCell.swift */,
+				F7DFAC361F67F19600AC61FD /* TourViewController.swift */,
+			);
+			name = TourController;
 			sourceTree = "<group>";
 		};
 		F7DFAC2F1F67DFFD00AC61FD /* icarousel */ = {
@@ -1155,7 +1151,6 @@
 				183664D91F9804C10020D324 /* CurrencyService.swift in Sources */,
 				183664D51F98043B0020D324 /* CityService.swift in Sources */,
 				F71EFF021FB08560004810CC /* BankService.swift in Sources */,
-				1868355E1F7786B100CDC601 /* HomeTableViewCell.swift in Sources */,
 				F7FFAFCE1F68F96B006FBD45 /* AWCollectionViewDialLayout.m in Sources */,
 				183664AE1F97F57B0020D324 /* Currency.swift in Sources */,
 				1887C3391F98727D00EF68BF /* RegionService.swift in Sources */,
@@ -1238,7 +1233,6 @@
 				F7F332C41F88C5FB00081B3D /* AddPersonBeneficiaryViewController.swift in Sources */,
 				1887C3331F98720300EF68BF /* NotificationService.swift in Sources */,
 				183664CC1F97F7060020D324 /* TransactionStatus.swift in Sources */,
-				F7465D731F6682270091C04D /* GrayTextField.swift in Sources */,
 				183664B01F97F5D20020D324 /* Customer.swift in Sources */,
 				1887C3371F98726C00EF68BF /* LanguagesService.swift in Sources */,
 				F7DFAC331F67E01600AC61FD /* iCarousel.m in Sources */,

@@ -30,18 +30,18 @@ class ProfileViewController: BaseViewController ,UITextFieldDelegate , UITableVi
     @IBOutlet weak var savebtn: UIButton!
     @IBOutlet weak var contentViewHeight: NSLayoutConstraint!
     @IBOutlet weak var saveView: UIView!
-    @IBOutlet weak var city: GrayTextField!
-    @IBOutlet weak var DateOfBirthdayTextField: GrayTextField!
-    @IBOutlet weak var country: GrayTextField!
-    @IBOutlet weak var address: GrayTextField!
+    @IBOutlet weak var city: UITextField!
+    @IBOutlet weak var DateOfBirthdayTextField: UITextField!
+    @IBOutlet weak var country: UITextField!
+    @IBOutlet weak var address: UITextField!
     @IBOutlet weak var maleButton: UIButton!
-    @IBOutlet weak var preferdLang: GrayTextField!
-    @IBOutlet weak var nationalityTextField: GrayTextField!
-    @IBOutlet weak var homePhone: GrayTextField!
+    @IBOutlet weak var preferdLang: UITextField!
+    @IBOutlet weak var nationalityTextField: UITextField!
+    @IBOutlet weak var homePhone: UITextField!
     @IBOutlet weak var femaleButton: UIButton!
     @IBOutlet weak var userName: UILabel!
-    @IBOutlet weak var workPhone: GrayTextField!
-    @IBOutlet weak var mobileNumber: GrayTextField!
+    @IBOutlet weak var workPhone: UITextField!
+    @IBOutlet weak var mobileNumber: UITextField!
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var femaleRadioButton: DLRadioButton!
     @IBOutlet weak var regionButton: UIButton!
@@ -52,15 +52,15 @@ class ProfileViewController: BaseViewController ,UITextFieldDelegate , UITableVi
     @IBOutlet weak var countryButton: UIButton!
     @IBOutlet weak var preferredLanguage: UIButton!
     @IBOutlet weak var nationalityButton: UIButton!
-    @IBOutlet weak var regionTextField: GrayTextField!
+    @IBOutlet weak var regionTextField: UITextField!
     @IBOutlet weak var MarriedRadioButton: DLRadioButton!
     @IBOutlet weak var singleRadioButton: DLRadioButton!
-    @IBOutlet weak var mailBoxTextField: GrayTextField!
+    @IBOutlet weak var mailBoxTextField: UITextField!
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var rewordLocationTextField: GrayTextField!
+    @IBOutlet weak var rewordLocationTextField: UITextField!
     @IBOutlet weak var maleRadioButton: DLRadioButton!
-    @IBOutlet weak var Name: GrayTextField!
+    @IBOutlet weak var Name: UITextField!
     
     @IBOutlet weak var langTbelview: UITableView!
     @IBOutlet weak var countryTabelview: UITableView!
