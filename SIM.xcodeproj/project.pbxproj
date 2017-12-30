@@ -116,6 +116,11 @@
 		F79096431FA3DD6A0010C9C7 /* ConfirmForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79096411FA3DD6A0010C9C7 /* ConfirmForgotPasswordViewController.swift */; };
 		F79096451FA408510010C9C7 /* MFAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79096441FA408510010C9C7 /* MFAViewController.xib */; };
 		F799DB661FCE8EC300E9B41C /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DB651FCE8EC300E9B41C /* JSONJoy.swift */; };
+		F7C22D5D1FF81EE600653909 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D5C1FF81EE600653909 /* LoginViewController.storyboard */; };
+		F7C22D601FF8213B00653909 /* RegisterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D5F1FF8213B00653909 /* RegisterViewController.storyboard */; };
+		F7C22D621FF825B600653909 /* VerifyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D611FF825B600653909 /* VerifyViewController.storyboard */; };
+		F7C22D641FF82DA800653909 /* Countries.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D631FF82DA800653909 /* Countries.storyboard */; };
+		F7C22D671FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D661FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard */; };
 		F7D201511F69469B00C9F880 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18998B311F66572C00FEF938 /* LoginViewController.swift */; };
 		F7D2015D1F695CF900C9F880 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2015C1F695CF900C9F880 /* Loader.swift */; };
 		F7DFAC2E1F67DB6D00AC61FD /* HistoryTableViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFAC2D1F67DB6D00AC61FD /* HistoryTableViewTableViewCell.swift */; };
@@ -314,6 +319,11 @@
 		F79096411FA3DD6A0010C9C7 /* ConfirmForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		F79096441FA408510010C9C7 /* MFAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAViewController.xib; sourceTree = "<group>"; };
 		F799DB651FCE8EC300E9B41C /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
+		F7C22D5C1FF81EE600653909 /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		F7C22D5F1FF8213B00653909 /* RegisterViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegisterViewController.storyboard; sourceTree = "<group>"; };
+		F7C22D611FF825B600653909 /* VerifyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VerifyViewController.storyboard; sourceTree = "<group>"; };
+		F7C22D631FF82DA800653909 /* Countries.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Countries.storyboard; sourceTree = "<group>"; };
+		F7C22D661FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddPersonBeneficiaryViewController.storyboard; sourceTree = "<group>"; };
 		F7D2015C1F695CF900C9F880 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		F7DFAC2D1F67DB6D00AC61FD /* HistoryTableViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewTableViewCell.swift; sourceTree = "<group>"; };
 		F7DFAC301F67E01100AC61FD /* SIM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SIM-Bridging-Header.h"; path = "SIM/SIM-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -442,7 +452,6 @@
 				F70BF1C21FBA1CDF00387757 /* assets */,
 				F70BF1C01FBA1CB200387757 /* Liscense */,
 				F71DB3A41F836DDE0012F329 /* Controllers */,
-				183670981F6570E10015A02E /* Main.storyboard */,
 				F70BF1BE1FBA1CA000387757 /* SIM.RTRProgressView.xib */,
 				F79096441FA408510010C9C7 /* MFAViewController.xib */,
 				1836709D1F6570E10015A02E /* LaunchScreen.storyboard */,
@@ -540,6 +549,7 @@
 		F71DB3A41F836DDE0012F329 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F7FFAFCF1F68F986006FBD45 /* CountryCode */,
 				F7C22D5A1FF80B8F00653909 /* TourController */,
 				F7216F631FCA94BE00665E3A /* RegistrationController */,
 				F7216F621FCA947C00665E3A /* Ocr */,
@@ -587,7 +597,6 @@
 				F7F332C01F88C59600081B3D /* RadioBtn */,
 				F71DB3AB1F836EA10012F329 /* Menu */,
 				F7D2015C1F695CF900C9F880 /* Loader.swift */,
-				F7FFAFCF1F68F986006FBD45 /* CountryCode */,
 				F7FFAFCB1F68F94E006FBD45 /* AWCollectionViewDialLayout */,
 				F7DFAC2F1F67DFFD00AC61FD /* icarousel */,
 				F7DFAC381F67F59000AC61FD /* KB */,
@@ -642,15 +651,14 @@
 		F7216F631FCA94BE00665E3A /* RegistrationController */ = {
 			isa = PBXGroup;
 			children = (
+				F7C22D651FF82FF500653909 /* VerificationController */,
+				F7C22D5E1FF8210D00653909 /* Register */,
+				F7C22D5B1FF81EB300653909 /* Login */,
 				180424A41F65EA1E004A285D /* TabBarController.swift */,
 				18823F7A1F9F302F0069A326 /* MFAViewController.swift */,
-				18998B311F66572C00FEF938 /* LoginViewController.swift */,
-				18998B351F66585900FEF938 /* RegisterPhase1ViewController.swift */,
-				18998B331F66574200FEF938 /* RegisterPhase2ViewController.swift */,
 				F79096401FA3DD6A0010C9C7 /* ForgotPasswordViewController.swift */,
 				F79096411FA3DD6A0010C9C7 /* ConfirmForgotPasswordViewController.swift */,
 				F74F36C11F89FC5D006410A1 /* ContactUsViewController.swift */,
-				F740E9941F85F933001BFDF5 /* VerifyViewController.swift */,
 			);
 			name = RegistrationController;
 			sourceTree = "<group>";
@@ -698,6 +706,7 @@
 				186ECA911FA9C7EE003AE5BA /* AskAddBeneficiaryViewController.swift */,
 				187ACDA61F9DE4A900DDFB18 /* AddMobileBeneficiaryViewController.swift */,
 				F7F332C21F88C5FB00081B3D /* AddPersonBeneficiaryViewController.swift */,
+				F7C22D661FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard */,
 			);
 			name = AddBeneficiary;
 			sourceTree = "<group>";
@@ -722,8 +731,37 @@
 			children = (
 				F7DFAC341F67F0AB00AC61FD /* TourCollectionViewCell.swift */,
 				F7DFAC361F67F19600AC61FD /* TourViewController.swift */,
+				183670981F6570E10015A02E /* Main.storyboard */,
 			);
 			name = TourController;
+			sourceTree = "<group>";
+		};
+		F7C22D5B1FF81EB300653909 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18998B311F66572C00FEF938 /* LoginViewController.swift */,
+				F7C22D5C1FF81EE600653909 /* LoginViewController.storyboard */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		F7C22D5E1FF8210D00653909 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F7C22D5F1FF8213B00653909 /* RegisterViewController.storyboard */,
+				18998B351F66585900FEF938 /* RegisterPhase1ViewController.swift */,
+				18998B331F66574200FEF938 /* RegisterPhase2ViewController.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		F7C22D651FF82FF500653909 /* VerificationController */ = {
+			isa = PBXGroup;
+			children = (
+				F7C22D611FF825B600653909 /* VerifyViewController.storyboard */,
+				F740E9941F85F933001BFDF5 /* VerifyViewController.swift */,
+			);
+			name = VerificationController;
 			sourceTree = "<group>";
 		};
 		F7DFAC2F1F67DFFD00AC61FD /* icarousel */ = {
@@ -765,6 +803,7 @@
 		F7FFAFCF1F68F986006FBD45 /* CountryCode */ = {
 			isa = PBXGroup;
 			children = (
+				F7C22D631FF82DA800653909 /* Countries.storyboard */,
 				F7FFAFD01F68F9A0006FBD45 /* CountryTableViewCell.swift */,
 				F7FFAFD11F68F9A0006FBD45 /* countries.json */,
 				F7FFAFD21F68F9A0006FBD45 /* SRCountryPickerController.swift */,
@@ -904,11 +943,16 @@
 			files = (
 				F70BF1DB1FBA22C100387757 /* AbbyyRtrSdk.license in Resources */,
 				1836709F1F6570E10015A02E /* LaunchScreen.storyboard in Resources */,
+				F7C22D621FF825B600653909 /* VerifyViewController.storyboard in Resources */,
+				F7C22D601FF8213B00653909 /* RegisterViewController.storyboard in Resources */,
 				1836709C1F6570E10015A02E /* Assets.xcassets in Resources */,
 				F71C0C1A1F8F6A3600088EE0 /* awsconfiguration.json in Resources */,
 				F7FFAFD51F68F9A0006FBD45 /* countries.json in Resources */,
 				F7FFAFD71F68F9A0006FBD45 /* CountryPicker.bundle in Resources */,
+				F7C22D671FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard in Resources */,
 				1836709A1F6570E10015A02E /* Main.storyboard in Resources */,
+				F7C22D641FF82DA800653909 /* Countries.storyboard in Resources */,
+				F7C22D5D1FF81EE600653909 /* LoginViewController.storyboard in Resources */,
 				F70BF1BF1FBA1CA000387757 /* SIM.RTRProgressView.xib in Resources */,
 				F79096451FA408510010C9C7 /* MFAViewController.xib in Resources */,
 			);
