@@ -142,7 +142,7 @@ class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         self.response = nil
         self.isLogOut = true
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: "LoginViewController", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "login")
         
         let navigationController = self.storyboard?.instantiateViewController(withIdentifier: "signInNavigationController") as? UINavigationController

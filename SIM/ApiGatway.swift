@@ -17,6 +17,7 @@ import SwiftyXMLParser
 class ApiGatway {
     
     static let api:ApiGatway = ApiGatway()
+    
     let serverUrl = "https://i8w3g773f5.execute-api.us-east-1.amazonaws.com/qwalletProd/qwalletdynamodbmanager/"
     
     func scan (params:[String:Any],onComplete:@escaping (Int,[NSDictionary]) -> Void){

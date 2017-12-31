@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180424A51F65EA1E004A285D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180424A41F65EA1E004A285D /* TabBarController.swift */; };
 		1828060F1F67DACD003ADF12 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828060E1F67DACD003ADF12 /* NotificationTableViewCell.swift */; };
 		183664A61F97F2BB0020D324 /* Beneficiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183664A51F97F2BB0020D324 /* Beneficiary.swift */; };
 		183664A81F97F5000020D324 /* BeneficiaryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183664A71F97F5000020D324 /* BeneficiaryType.swift */; };
@@ -48,14 +47,12 @@
 		183670B51F6570E10015A02E /* SIMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183670B41F6570E10015A02E /* SIMUITests.swift */; };
 		183670C31F65D8380015A02E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183670C21F65D8380015A02E /* NotificationsViewController.swift */; };
 		1868355C1F77848B00CDC601 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868355B1F77848B00CDC601 /* HomeViewController.swift */; };
-		186ECA921FA9C7EE003AE5BA /* AskAddBeneficiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186ECA911FA9C7EE003AE5BA /* AskAddBeneficiaryViewController.swift */; };
 		186ECA941FA9CBD2003AE5BA /* AddBeneficiariesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186ECA931FA9CBD2003AE5BA /* AddBeneficiariesListViewController.swift */; };
 		187ACDA31F9DC0AF00DDFB18 /* WalletToWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ACDA21F9DC0AF00DDFB18 /* WalletToWalletViewController.swift */; };
 		187ACDA51F9DDC8500DDFB18 /* AddWalletBeneficiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ACDA41F9DDC8500DDFB18 /* AddWalletBeneficiaryViewController.swift */; };
 		187ACDA71F9DE4A900DDFB18 /* AddMobileBeneficiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ACDA61F9DE4A900DDFB18 /* AddMobileBeneficiaryViewController.swift */; };
 		187ACDA91F9DF34400DDFB18 /* AddBillBeneficiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ACDA81F9DF34400DDFB18 /* AddBillBeneficiaryViewController.swift */; };
 		187ACDAB1F9DF84900DDFB18 /* AddBalanceToWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ACDAA1F9DF84900DDFB18 /* AddBalanceToWalletViewController.swift */; };
-		18823F7B1F9F302F0069A326 /* MFAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18823F7A1F9F302F0069A326 /* MFAViewController.swift */; };
 		1887C3311F98718C00EF68BF /* MartialStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887C3301F98718C00EF68BF /* MartialStatusService.swift */; };
 		1887C3331F98720300EF68BF /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887C3321F98720300EF68BF /* NotificationService.swift */; };
 		1887C3351F98725600EF68BF /* NationalityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887C3341F98725600EF68BF /* NationalityService.swift */; };
@@ -114,13 +111,16 @@
 		F74F36C41F89FCC2006410A1 /* LegalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F36C31F89FCC2006410A1 /* LegalInfoViewController.swift */; };
 		F79096421FA3DD6A0010C9C7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79096401FA3DD6A0010C9C7 /* ForgotPasswordViewController.swift */; };
 		F79096431FA3DD6A0010C9C7 /* ConfirmForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79096411FA3DD6A0010C9C7 /* ConfirmForgotPasswordViewController.swift */; };
-		F79096451FA408510010C9C7 /* MFAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79096441FA408510010C9C7 /* MFAViewController.xib */; };
 		F799DB661FCE8EC300E9B41C /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DB651FCE8EC300E9B41C /* JSONJoy.swift */; };
 		F7C22D5D1FF81EE600653909 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D5C1FF81EE600653909 /* LoginViewController.storyboard */; };
 		F7C22D601FF8213B00653909 /* RegisterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D5F1FF8213B00653909 /* RegisterViewController.storyboard */; };
 		F7C22D621FF825B600653909 /* VerifyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D611FF825B600653909 /* VerifyViewController.storyboard */; };
 		F7C22D641FF82DA800653909 /* Countries.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D631FF82DA800653909 /* Countries.storyboard */; };
 		F7C22D671FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D661FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard */; };
+		F7C22D691FF8482500653909 /* AddMobileBeneficiaryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D681FF8482500653909 /* AddMobileBeneficiaryViewController.storyboard */; };
+		F7C22D6B1FF8484C00653909 /* AddBeneficiariesListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D6A1FF8484C00653909 /* AddBeneficiariesListViewController.storyboard */; };
+		F7C22D6D1FF8488800653909 /* AddWalletBeneficiaryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D6C1FF8488800653909 /* AddWalletBeneficiaryViewController.storyboard */; };
+		F7C22D6F1FF8489900653909 /* AddBillBeneficiaryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C22D6E1FF8489900653909 /* AddBillBeneficiaryViewController.storyboard */; };
 		F7D201511F69469B00C9F880 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18998B311F66572C00FEF938 /* LoginViewController.swift */; };
 		F7D2015D1F695CF900C9F880 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2015C1F695CF900C9F880 /* Loader.swift */; };
 		F7DFAC2E1F67DB6D00AC61FD /* HistoryTableViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFAC2D1F67DB6D00AC61FD /* HistoryTableViewTableViewCell.swift */; };
@@ -128,8 +128,14 @@
 		F7DFAC351F67F0AB00AC61FD /* TourCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFAC341F67F0AB00AC61FD /* TourCollectionViewCell.swift */; };
 		F7DFAC371F67F19600AC61FD /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFAC361F67F19600AC61FD /* TourViewController.swift */; };
 		F7DFAC3B1F67F5A300AC61FD /* KBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DFAC3A1F67F5A300AC61FD /* KBImageView.m */; };
+		F7F200451FF851DE0070D38F /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F200441FF851DE0070D38F /* HomeViewController.storyboard */; };
+		F7F200471FF854DE0070D38F /* QRemitViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F200461FF854DE0070D38F /* QRemitViewController.storyboard */; };
+		F7F200491FF854FA0070D38F /* QBillViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F200481FF854FA0070D38F /* QBillViewController.storyboard */; };
+		F7F2004B1FF8550E0070D38F /* QTopUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F2004A1FF8550E0070D38F /* QTopUpViewController.storyboard */; };
+		F7F2004D1FF858730070D38F /* WalletToWalletViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F2004C1FF858730070D38F /* WalletToWalletViewController.storyboard */; };
+		F7F2004F1FF85A0F0070D38F /* MoneyTransfereViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F2004E1FF85A0F0070D38F /* MoneyTransfereViewController.storyboard */; };
 		F7F332BF1F88A31700081B3D /* QBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F332BE1F88A31700081B3D /* QBillViewController.swift */; };
-		F7F332C31F88C5FB00081B3D /* BenificiaryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F332C11F88C5FB00081B3D /* BenificiaryListViewController.swift */; };
+		F7F332C31F88C5FB00081B3D /* QRemitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F332C11F88C5FB00081B3D /* QRemitViewController.swift */; };
 		F7F332C41F88C5FB00081B3D /* AddPersonBeneficiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F332C21F88C5FB00081B3D /* AddPersonBeneficiaryViewController.swift */; };
 		F7F332C71F88C63900081B3D /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F332C51F88C63900081B3D /* DLRadioButton.m */; };
 		F7F332C91F88D48000081B3D /* QRewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F332C81F88D48000081B3D /* QRewardViewController.swift */; };
@@ -192,7 +198,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		180424A41F65EA1E004A285D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1828060E1F67DACD003ADF12 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
 		183664A51F97F2BB0020D324 /* Beneficiary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beneficiary.swift; sourceTree = "<group>"; };
 		183664A71F97F5000020D324 /* BeneficiaryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeneficiaryType.swift; sourceTree = "<group>"; };
@@ -239,7 +244,6 @@
 		183670B61F6570E10015A02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183670C21F65D8380015A02E /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		1868355B1F77848B00CDC601 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		186ECA911FA9C7EE003AE5BA /* AskAddBeneficiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskAddBeneficiaryViewController.swift; sourceTree = "<group>"; };
 		186ECA931FA9CBD2003AE5BA /* AddBeneficiariesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBeneficiariesListViewController.swift; sourceTree = "<group>"; };
 		187ACDA21F9DC0AF00DDFB18 /* WalletToWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletToWalletViewController.swift; sourceTree = "<group>"; };
 		187ACDA41F9DDC8500DDFB18 /* AddWalletBeneficiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWalletBeneficiaryViewController.swift; sourceTree = "<group>"; };
@@ -247,7 +251,6 @@
 		187ACDA81F9DF34400DDFB18 /* AddBillBeneficiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBillBeneficiaryViewController.swift; sourceTree = "<group>"; };
 		187ACDAA1F9DF84900DDFB18 /* AddBalanceToWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBalanceToWalletViewController.swift; sourceTree = "<group>"; };
 		187B4AA41F8A0DF900484107 /* BenificiaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenificiaryTableViewCell.swift; sourceTree = "<group>"; };
-		18823F7A1F9F302F0069A326 /* MFAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFAViewController.swift; sourceTree = "<group>"; };
 		1887C3301F98718C00EF68BF /* MartialStatusService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MartialStatusService.swift; sourceTree = "<group>"; };
 		1887C3321F98720300EF68BF /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		1887C3341F98725600EF68BF /* NationalityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NationalityService.swift; sourceTree = "<group>"; };
@@ -317,13 +320,16 @@
 		F74F36C31F89FCC2006410A1 /* LegalInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalInfoViewController.swift; sourceTree = "<group>"; };
 		F79096401FA3DD6A0010C9C7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		F79096411FA3DD6A0010C9C7 /* ConfirmForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmForgotPasswordViewController.swift; sourceTree = "<group>"; };
-		F79096441FA408510010C9C7 /* MFAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAViewController.xib; sourceTree = "<group>"; };
 		F799DB651FCE8EC300E9B41C /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
 		F7C22D5C1FF81EE600653909 /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 		F7C22D5F1FF8213B00653909 /* RegisterViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegisterViewController.storyboard; sourceTree = "<group>"; };
 		F7C22D611FF825B600653909 /* VerifyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VerifyViewController.storyboard; sourceTree = "<group>"; };
 		F7C22D631FF82DA800653909 /* Countries.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Countries.storyboard; sourceTree = "<group>"; };
 		F7C22D661FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddPersonBeneficiaryViewController.storyboard; sourceTree = "<group>"; };
+		F7C22D681FF8482500653909 /* AddMobileBeneficiaryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddMobileBeneficiaryViewController.storyboard; sourceTree = "<group>"; };
+		F7C22D6A1FF8484C00653909 /* AddBeneficiariesListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddBeneficiariesListViewController.storyboard; sourceTree = "<group>"; };
+		F7C22D6C1FF8488800653909 /* AddWalletBeneficiaryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddWalletBeneficiaryViewController.storyboard; sourceTree = "<group>"; };
+		F7C22D6E1FF8489900653909 /* AddBillBeneficiaryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddBillBeneficiaryViewController.storyboard; sourceTree = "<group>"; };
 		F7D2015C1F695CF900C9F880 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		F7DFAC2D1F67DB6D00AC61FD /* HistoryTableViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewTableViewCell.swift; sourceTree = "<group>"; };
 		F7DFAC301F67E01100AC61FD /* SIM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SIM-Bridging-Header.h"; path = "SIM/SIM-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -333,8 +339,14 @@
 		F7DFAC361F67F19600AC61FD /* TourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
 		F7DFAC391F67F5A300AC61FD /* KBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBImageView.h; sourceTree = "<group>"; };
 		F7DFAC3A1F67F5A300AC61FD /* KBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBImageView.m; sourceTree = "<group>"; };
+		F7F200441FF851DE0070D38F /* HomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		F7F200461FF854DE0070D38F /* QRemitViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRemitViewController.storyboard; sourceTree = "<group>"; };
+		F7F200481FF854FA0070D38F /* QBillViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QBillViewController.storyboard; sourceTree = "<group>"; };
+		F7F2004A1FF8550E0070D38F /* QTopUpViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QTopUpViewController.storyboard; sourceTree = "<group>"; };
+		F7F2004C1FF858730070D38F /* WalletToWalletViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WalletToWalletViewController.storyboard; sourceTree = "<group>"; };
+		F7F2004E1FF85A0F0070D38F /* MoneyTransfereViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MoneyTransfereViewController.storyboard; sourceTree = "<group>"; };
 		F7F332BE1F88A31700081B3D /* QBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QBillViewController.swift; sourceTree = "<group>"; };
-		F7F332C11F88C5FB00081B3D /* BenificiaryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenificiaryListViewController.swift; sourceTree = "<group>"; };
+		F7F332C11F88C5FB00081B3D /* QRemitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRemitViewController.swift; sourceTree = "<group>"; };
 		F7F332C21F88C5FB00081B3D /* AddPersonBeneficiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonBeneficiaryViewController.swift; sourceTree = "<group>"; };
 		F7F332C51F88C63900081B3D /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
 		F7F332C61F88C63900081B3D /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
@@ -401,10 +413,10 @@
 				183664D81F9804C10020D324 /* CurrencyService.swift */,
 				183664DA1F9804FF0020D324 /* CustomerService.swift */,
 				183664DC1F98050E0020D324 /* DeviceService.swift */,
+				1887C3341F98725600EF68BF /* NationalityService.swift */,
 				183664DE1F9805200020D324 /* GenderService.swift */,
 				1887C3301F98718C00EF68BF /* MartialStatusService.swift */,
 				1887C3321F98720300EF68BF /* NotificationService.swift */,
-				1887C3341F98725600EF68BF /* NationalityService.swift */,
 				1887C3361F98726C00EF68BF /* LanguagesService.swift */,
 				1887C3381F98727D00EF68BF /* RegionService.swift */,
 				1887C33A1F9872B400EF68BF /* RemittanceChannelService.swift */,
@@ -453,7 +465,6 @@
 				F70BF1C01FBA1CB200387757 /* Liscense */,
 				F71DB3A41F836DDE0012F329 /* Controllers */,
 				F70BF1BE1FBA1CA000387757 /* SIM.RTRProgressView.xib */,
-				F79096441FA408510010C9C7 /* MFAViewController.xib */,
 				1836709D1F6570E10015A02E /* LaunchScreen.storyboard */,
 				1836709B1F6570E10015A02E /* Assets.xcassets */,
 				183670921F6570E10015A02E /* AppDelegate.swift */,
@@ -654,11 +665,6 @@
 				F7C22D651FF82FF500653909 /* VerificationController */,
 				F7C22D5E1FF8210D00653909 /* Register */,
 				F7C22D5B1FF81EB300653909 /* Login */,
-				180424A41F65EA1E004A285D /* TabBarController.swift */,
-				18823F7A1F9F302F0069A326 /* MFAViewController.swift */,
-				F79096401FA3DD6A0010C9C7 /* ForgotPasswordViewController.swift */,
-				F79096411FA3DD6A0010C9C7 /* ConfirmForgotPasswordViewController.swift */,
-				F74F36C11F89FC5D006410A1 /* ContactUsViewController.swift */,
 			);
 			name = RegistrationController;
 			sourceTree = "<group>";
@@ -666,15 +672,14 @@
 		F7216F641FCA966800665E3A /* QWalletServices */ = {
 			isa = PBXGroup;
 			children = (
+				F7F200541FF85FC10070D38F /* MoneyTransfere */,
+				F7F200531FF85FA40070D38F /* WalletToWallet */,
+				F7F200521FF85F7C0070D38F /* QTopUp */,
+				F7F200511FF85F5C0070D38F /* QBill */,
+				F7F200501FF85F3F0070D38F /* QRemit */,
 				187ACDAA1F9DF84900DDFB18 /* AddBalanceToWalletViewController.swift */,
-				187ACDA21F9DC0AF00DDFB18 /* WalletToWalletViewController.swift */,
-				F72796F41F84C11400FF4D45 /* QTopUpViewController.swift */,
 				183670961F6570E10015A02E /* EPaymentViewController.swift */,
 				F7F332C81F88D48000081B3D /* QRewardViewController.swift */,
-				183670941F6570E10015A02E /* MoneyTransfereViewController.swift */,
-				F70BF1B21FB9A6F600387757 /* QRemitDetails.swift */,
-				F7F332BE1F88A31700081B3D /* QBillViewController.swift */,
-				F7F332C11F88C5FB00081B3D /* BenificiaryListViewController.swift */,
 			);
 			name = QWalletServices;
 			sourceTree = "<group>";
@@ -703,10 +708,13 @@
 				187ACDA81F9DF34400DDFB18 /* AddBillBeneficiaryViewController.swift */,
 				187ACDA41F9DDC8500DDFB18 /* AddWalletBeneficiaryViewController.swift */,
 				186ECA931FA9CBD2003AE5BA /* AddBeneficiariesListViewController.swift */,
-				186ECA911FA9C7EE003AE5BA /* AskAddBeneficiaryViewController.swift */,
 				187ACDA61F9DE4A900DDFB18 /* AddMobileBeneficiaryViewController.swift */,
 				F7F332C21F88C5FB00081B3D /* AddPersonBeneficiaryViewController.swift */,
 				F7C22D661FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard */,
+				F7C22D681FF8482500653909 /* AddMobileBeneficiaryViewController.storyboard */,
+				F7C22D6A1FF8484C00653909 /* AddBeneficiariesListViewController.storyboard */,
+				F7C22D6C1FF8488800653909 /* AddWalletBeneficiaryViewController.storyboard */,
+				F7C22D6E1FF8489900653909 /* AddBillBeneficiaryViewController.storyboard */,
 			);
 			name = AddBeneficiary;
 			sourceTree = "<group>";
@@ -722,6 +730,7 @@
 				18998B2F1F66571100FEF938 /* HistoryViewController.swift */,
 				F7DFAC2D1F67DB6D00AC61FD /* HistoryTableViewTableViewCell.swift */,
 				183670C21F65D8380015A02E /* NotificationsViewController.swift */,
+				F7F200441FF851DE0070D38F /* HomeViewController.storyboard */,
 			);
 			name = SideMenu;
 			sourceTree = "<group>";
@@ -740,6 +749,9 @@
 			isa = PBXGroup;
 			children = (
 				18998B311F66572C00FEF938 /* LoginViewController.swift */,
+				F79096401FA3DD6A0010C9C7 /* ForgotPasswordViewController.swift */,
+				F79096411FA3DD6A0010C9C7 /* ConfirmForgotPasswordViewController.swift */,
+				F74F36C11F89FC5D006410A1 /* ContactUsViewController.swift */,
 				F7C22D5C1FF81EE600653909 /* LoginViewController.storyboard */,
 			);
 			name = Login;
@@ -780,6 +792,52 @@
 				F7DFAC3A1F67F5A300AC61FD /* KBImageView.m */,
 			);
 			name = KB;
+			sourceTree = "<group>";
+		};
+		F7F200501FF85F3F0070D38F /* QRemit */ = {
+			isa = PBXGroup;
+			children = (
+				F70BF1B21FB9A6F600387757 /* QRemitDetails.swift */,
+				F7F332C11F88C5FB00081B3D /* QRemitViewController.swift */,
+				F7F200461FF854DE0070D38F /* QRemitViewController.storyboard */,
+			);
+			name = QRemit;
+			sourceTree = "<group>";
+		};
+		F7F200511FF85F5C0070D38F /* QBill */ = {
+			isa = PBXGroup;
+			children = (
+				F7F200481FF854FA0070D38F /* QBillViewController.storyboard */,
+				F7F332BE1F88A31700081B3D /* QBillViewController.swift */,
+			);
+			name = QBill;
+			sourceTree = "<group>";
+		};
+		F7F200521FF85F7C0070D38F /* QTopUp */ = {
+			isa = PBXGroup;
+			children = (
+				F72796F41F84C11400FF4D45 /* QTopUpViewController.swift */,
+				F7F2004A1FF8550E0070D38F /* QTopUpViewController.storyboard */,
+			);
+			name = QTopUp;
+			sourceTree = "<group>";
+		};
+		F7F200531FF85FA40070D38F /* WalletToWallet */ = {
+			isa = PBXGroup;
+			children = (
+				187ACDA21F9DC0AF00DDFB18 /* WalletToWalletViewController.swift */,
+				F7F2004C1FF858730070D38F /* WalletToWalletViewController.storyboard */,
+			);
+			name = WalletToWallet;
+			sourceTree = "<group>";
+		};
+		F7F200541FF85FC10070D38F /* MoneyTransfere */ = {
+			isa = PBXGroup;
+			children = (
+				183670941F6570E10015A02E /* MoneyTransfereViewController.swift */,
+				F7F2004E1FF85A0F0070D38F /* MoneyTransfereViewController.storyboard */,
+			);
+			name = MoneyTransfere;
 			sourceTree = "<group>";
 		};
 		F7F332C01F88C59600081B3D /* RadioBtn */ = {
@@ -942,19 +1000,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70BF1DB1FBA22C100387757 /* AbbyyRtrSdk.license in Resources */,
+				F7C22D6B1FF8484C00653909 /* AddBeneficiariesListViewController.storyboard in Resources */,
 				1836709F1F6570E10015A02E /* LaunchScreen.storyboard in Resources */,
 				F7C22D621FF825B600653909 /* VerifyViewController.storyboard in Resources */,
 				F7C22D601FF8213B00653909 /* RegisterViewController.storyboard in Resources */,
 				1836709C1F6570E10015A02E /* Assets.xcassets in Resources */,
+				F7C22D6F1FF8489900653909 /* AddBillBeneficiaryViewController.storyboard in Resources */,
 				F71C0C1A1F8F6A3600088EE0 /* awsconfiguration.json in Resources */,
 				F7FFAFD51F68F9A0006FBD45 /* countries.json in Resources */,
+				F7C22D6D1FF8488800653909 /* AddWalletBeneficiaryViewController.storyboard in Resources */,
 				F7FFAFD71F68F9A0006FBD45 /* CountryPicker.bundle in Resources */,
+				F7F200471FF854DE0070D38F /* QRemitViewController.storyboard in Resources */,
 				F7C22D671FF83FB100653909 /* AddPersonBeneficiaryViewController.storyboard in Resources */,
+				F7F200491FF854FA0070D38F /* QBillViewController.storyboard in Resources */,
+				F7F2004D1FF858730070D38F /* WalletToWalletViewController.storyboard in Resources */,
+				F7F2004F1FF85A0F0070D38F /* MoneyTransfereViewController.storyboard in Resources */,
+				F7F2004B1FF8550E0070D38F /* QTopUpViewController.storyboard in Resources */,
 				1836709A1F6570E10015A02E /* Main.storyboard in Resources */,
+				F7C22D691FF8482500653909 /* AddMobileBeneficiaryViewController.storyboard in Resources */,
 				F7C22D641FF82DA800653909 /* Countries.storyboard in Resources */,
 				F7C22D5D1FF81EE600653909 /* LoginViewController.storyboard in Resources */,
 				F70BF1BF1FBA1CA000387757 /* SIM.RTRProgressView.xib in Resources */,
-				F79096451FA408510010C9C7 /* MFAViewController.xib in Resources */,
+				F7F200451FF851DE0070D38F /* HomeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1202,8 +1269,7 @@
 				F71DB3B61F836EB70012F329 /* BaseViewController.swift in Sources */,
 				183664A81F97F5000020D324 /* BeneficiaryType.swift in Sources */,
 				183664B61F97F6090020D324 /* MaritalStatus.swift in Sources */,
-				F7F332C31F88C5FB00081B3D /* BenificiaryListViewController.swift in Sources */,
-				186ECA921FA9C7EE003AE5BA /* AskAddBeneficiaryViewController.swift in Sources */,
+				F7F332C31F88C5FB00081B3D /* QRemitViewController.swift in Sources */,
 				1887C33B1F9872B400EF68BF /* RemittanceChannelService.swift in Sources */,
 				F71DB3C21F83A84D0012F329 /* ProfileViewController.swift in Sources */,
 				183664C41F97F6A70020D324 /* ServiceProvider.swift in Sources */,
@@ -1267,10 +1333,8 @@
 				F7FFAFD41F68F9A0006FBD45 /* CountryTableViewCell.swift in Sources */,
 				F70F653D1FD2C63800A2E92C /* ApiGatway.swift in Sources */,
 				183664B81F97F6290020D324 /* Notification.swift in Sources */,
-				18823F7B1F9F302F0069A326 /* MFAViewController.swift in Sources */,
 				183664B21F97F5E00020D324 /* Device.swift in Sources */,
 				18998B301F66571100FEF938 /* HistoryViewController.swift in Sources */,
-				180424A51F65EA1E004A285D /* TabBarController.swift in Sources */,
 				183664C61F97F6BF0020D324 /* TelecomProvider.swift in Sources */,
 				F7F332CB1F88EA3200081B3D /* LocationViewController.swift in Sources */,
 				F7465D711F6682040091C04D /* Extensions.swift in Sources */,

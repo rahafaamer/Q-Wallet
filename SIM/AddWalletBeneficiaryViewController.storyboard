@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ouf-Jd-DTm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add Wallet Beneficiary View Controller-->
+        <scene sceneID="hbR-JU-wbN">
+            <objects>
+                <viewController id="ouf-Jd-DTm" customClass="AddWalletBeneficiaryViewController" customModule="SIM" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t85-cg-tyf"/>
+                        <viewControllerLayoutGuide type="bottom" id="0uM-aX-lH5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="la4-a7-PyS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Beneficiary Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KAb-x0-62j">
+                                <rect key="frame" x="20" y="50" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="hL2-qe-wpu"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Q-Wallet Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pNd-7J-7ci">
+                                <rect key="frame" x="20" y="100" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="lcc-IV-rhl"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wMy-7r-8pt">
+                                <rect key="frame" x="20" y="170" width="335" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEb-X1-dOD">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="g2N-ps-5dP"/>
+                                            <constraint firstAttribute="height" constant="30" id="rZH-3a-gEc"/>
+                                        </constraints>
+                                        <state key="normal" title="Save">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onSaveClick:" destination="ouf-Jd-DTm" eventType="touchUpInside" id="S4f-Ft-f5l"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhu-VQ-12q">
+                                        <rect key="frame" x="235" y="0.0" width="100" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="kMe-6j-Ypu"/>
+                                            <constraint firstAttribute="width" constant="100" id="zX5-Oq-7YF"/>
+                                        </constraints>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onCancelClick:" destination="ouf-Jd-DTm" eventType="touchUpInside" id="GUy-xo-Sxc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="IEb-X1-dOD" firstAttribute="top" secondItem="wMy-7r-8pt" secondAttribute="top" id="Cle-gx-yop"/>
+                                    <constraint firstItem="IEb-X1-dOD" firstAttribute="leading" secondItem="wMy-7r-8pt" secondAttribute="leading" id="I2J-xU-fL2"/>
+                                    <constraint firstItem="lhu-VQ-12q" firstAttribute="top" secondItem="wMy-7r-8pt" secondAttribute="top" id="cdm-Tt-Rc3"/>
+                                    <constraint firstAttribute="trailing" secondItem="lhu-VQ-12q" secondAttribute="trailing" id="ej5-Zo-ddY"/>
+                                    <constraint firstAttribute="height" constant="35" id="rnP-D0-eV6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KAb-x0-62j" secondAttribute="trailing" constant="20" id="7Bs-7K-2kT"/>
+                            <constraint firstItem="wMy-7r-8pt" firstAttribute="leading" secondItem="la4-a7-PyS" secondAttribute="leading" constant="20" id="8t4-Wl-9Vq"/>
+                            <constraint firstAttribute="trailing" secondItem="wMy-7r-8pt" secondAttribute="trailing" constant="20" id="BBo-I2-5zW"/>
+                            <constraint firstItem="KAb-x0-62j" firstAttribute="top" secondItem="t85-cg-tyf" secondAttribute="bottom" constant="30" id="FeK-Li-liP"/>
+                            <constraint firstItem="pNd-7J-7ci" firstAttribute="leading" secondItem="la4-a7-PyS" secondAttribute="leading" constant="20" id="TLK-lo-d4V"/>
+                            <constraint firstItem="KAb-x0-62j" firstAttribute="leading" secondItem="la4-a7-PyS" secondAttribute="leading" constant="20" id="nbh-Cf-gI5"/>
+                            <constraint firstItem="wMy-7r-8pt" firstAttribute="top" secondItem="pNd-7J-7ci" secondAttribute="bottom" constant="30" id="ntf-1X-IfU"/>
+                            <constraint firstItem="pNd-7J-7ci" firstAttribute="top" secondItem="KAb-x0-62j" secondAttribute="bottom" constant="10" id="vA1-v5-2hQ"/>
+                            <constraint firstAttribute="trailing" secondItem="pNd-7J-7ci" secondAttribute="trailing" constant="20" id="viR-rd-spH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="benNameTextField" destination="KAb-x0-62j" id="6kU-Qr-FGu"/>
+                        <outlet property="cancelBtn" destination="lhu-VQ-12q" id="uzI-Ad-7Qh"/>
+                        <outlet property="saveBtn" destination="IEb-X1-dOD" id="Ee4-C4-GYu"/>
+                        <outlet property="walletNumTextField" destination="pNd-7J-7ci" id="tih-vP-Y6a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYM-Rv-9oa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1273" y="-163"/>
+        </scene>
+    </scenes>
+</document>

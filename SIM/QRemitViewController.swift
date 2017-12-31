@@ -12,7 +12,7 @@ import RealmSwift
 protocol BenificiaryListViewControllerDelegate {
     func fillBenificiaryList(benificiary:String)
 }
-class BenificiaryListViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate , BenificiaryListViewControllerDelegate,UITextFieldDelegate {
+class QRemitViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate , BenificiaryListViewControllerDelegate,UITextFieldDelegate {
 
     @IBOutlet weak var sendCurrencyTextfield: UITextField!
     @IBOutlet weak var exchangeHouseTableView: UITableView!

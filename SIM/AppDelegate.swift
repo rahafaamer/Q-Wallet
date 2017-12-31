@@ -28,7 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     static let remoteNotificationKey = "RemoteNotification"
     var userSession:AWSCognitoIdentityUserSession?
     var signInViewController: LoginViewController?
-    var mfaViewController: MFAViewController?
     var navigationController: UINavigationController?
     var storyboard: UIStoryboard?
     var rememberDeviceCompletionSource: AWSTaskCompletionSource<NSNumber>?
@@ -62,7 +61,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         // fetch the user pool client we initialized in above step
         let pool = AWSCognitoIdentityUserPool(forKey: "UserPool")
         self.storyboard = UIStoryboard(name: "Main", bundle: nil)
-        pool.delegate = self
         
         let realm = try! Realm()
         if realm.objects(Customer.self).count != 0 {
@@ -312,33 +310,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 }
 
 // MARK:- AWSCognitoIdentityInteractiveAuthenticationDelegate protocol delegate
-
-extension AppDelegate: AWSCognitoIdentityInteractiveAuthenticationDelegate {
-    
-    
-    
-    func startMultiFactorAuthentication() -> AWSCognitoIdentityMultiFactorAuthentication {
-        if (self.mfaViewController == nil) {
-            self.mfaViewController = MFAViewController()
-            self.mfaViewController?.modalPresentationStyle = .popover
-        }
-        DispatchQueue.main.async {
-            if (!self.mfaViewController!.isViewLoaded
-                || self.mfaViewController!.view.window == nil) {
-                //display mfa as popover on current view controller
-                let viewController = self.window?.rootViewController!
-                viewController?.present(self.mfaViewController!,
-                                        animated: true,
-                                        completion: nil)
-                
-                // configure popover vc
-                let presentationController = self.mfaViewController!.popoverPresentationController
-                presentationController?.permittedArrowDirections = UIPopoverArrowDirection.left
-                presentationController?.sourceView = viewController!.view
-                presentationController?.sourceRect = viewController!.view.bounds
-            }
-        }
-        return self.mfaViewController!
-    }
-    
-}
